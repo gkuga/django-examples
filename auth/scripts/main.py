@@ -8,6 +8,7 @@ user = authenticate(username="john", password="johnpassword")
 print(user)
 content_type = ContentType.objects.get_for_model(Student, for_concrete_model=False)
 print(content_type)
+print([p.codename for p in Permission.objects.filter()])
 student_permissions = Permission.objects.filter(content_type=content_type)
 print([s.codename for s in student_permissions])
 for permission in student_permissions:
