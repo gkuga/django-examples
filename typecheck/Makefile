@@ -1,3 +1,7 @@
+.PHONY: pyright mypy
+
+all:
+
 pyright:
 	pipenv run pyright
 
