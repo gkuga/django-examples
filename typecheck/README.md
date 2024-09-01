@@ -1,1 +1,0 @@
-- [Mypy と Pyright の解析手法と型情報の比較](https://future-architect.github.io/articles/20220301a/)
